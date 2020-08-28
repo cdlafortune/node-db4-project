@@ -16,7 +16,6 @@ exports.up = async function(knex) {
         table.integer('ingredient_id').notNull();
         table.float('quantity');
     });
-
 };
 
 exports.down = async function(knex) {
